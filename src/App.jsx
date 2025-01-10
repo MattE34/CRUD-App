@@ -55,7 +55,7 @@ function App() {
         <textarea
           value={suggestionText}
           onInput={handleInput}
-          placeholder="Enter your suggestion here"
+          placeholder="Enter your task here"
           className="bg-slate-800 shadow-xl w-full h-20 p-4 rounded disabled:bg-slate-900
          disabled:placeholder:text-slate-500 disabled:curser-not-allowed"
         ></textarea>
